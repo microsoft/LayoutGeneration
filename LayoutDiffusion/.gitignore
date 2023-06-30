@@ -1,0 +1,60 @@
+pics
+data/raw_datasets/publaynet/
+tmp
+checkpoint
+generation_outputs
+!results/checkpoint/README.md
+!results/generation_outputs/README.md
+run.sh
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+PretrainedLayoutModel
+.ipynb_checkpoints
+.vscode
+.empty
+# C extensions
+*.so
+*.pyc
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+**/wandb
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.wandb
+MANIFEST
+.amltignore
+.vscode
+raw
+.amltconfig
+amlt_config/code
+amlt_config/amlt
+amlt_config/azureml-logs
+output
+layout_pretrain.egg-info
+test
+amlt/
+output*/
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
