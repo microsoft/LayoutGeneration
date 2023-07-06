@@ -8,7 +8,7 @@ spacy==3.2.4
 huggingface_hub==0.4.0
 typing-inspect==0.8.0
 typing_extensions==4.5.0
-scipy==1.7.1
+scipy==1.10.0
 pytorch_fid==0.2.0
 seaborn==0.11.2
 pycocotools==2.0.2
