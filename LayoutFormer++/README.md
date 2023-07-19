@@ -15,7 +15,7 @@ Video: [YouTube](https://youtu.be/TBdo0XwMoxE)
 1. Clone this repository
 
         git clone https://github.com/microsoft/LayoutGeneration.git
-        cd LayoutFormer++
+        cd LayoutGeneration/LayoutFormer++
 
 2. Create a conda environment 
 
@@ -31,17 +31,28 @@ Video: [YouTube](https://youtu.be/TBdo0XwMoxE)
 ## Dataset
 You can
 
-- Download raw datasets by following [const_layout](https://github.com/ktrk115/const_layout/tree/master/data) and then process them, or 
+- Download raw datasets by following [const_layout](https://github.com/ktrk115/const_layout/tree/master/data), or 
 
-- Directly use the pre-processed dataset in `./datasets/`.
+- Directly use our pre-processed dataset. Please refer to [Inference](##Inference).
 
 ## Inference
 
-First, download pre-trained model checkpoints from [Huggingface](https://huggingface.co/jzy124/LayoutFormer/tree/main).
+First, download pre-trained model checkpoints and the pre-processed datasets from [Huggingface](https://huggingface.co/jzy124/LayoutFormer/tree/main).
 
 - download checkpoints:
 
-        wget https://huggingface.co/jzy124/LayoutFormer/resolve/main/ckpts/
+        git lfs install
+        git clone https://huggingface.co/jzy124/LayoutFormer
+
+- move `LayoutFormer/datasets` and `LayoutFormer/ckpts` to `LayoutFormer++/`, as
+
+        LayoutGeneration/LayoutFormer++/
+        ├── datasets
+        ├── ckpts
+        ├── src
+        ├── README.md
+        ├── ...
+
 
 Then, run
 
