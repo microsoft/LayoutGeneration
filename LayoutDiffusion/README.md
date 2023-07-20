@@ -1,5 +1,5 @@
 # LayoutDiffusion
-**LayoutDiffusion: Improving Graphic Layout Generation by Discrete Diffusion Probabilistic Models** [[arXiv](https://arxiv.org/abs/2303.11589)], by *Junyi Zhang*, *Jiaqi Guo*, *Shizhao Sun*, *Jian-Guang Lou*, *Dongmei Zhang*, is a generative model that automates graphic layout generation using a discrete denoising diffusion process. It incorporates the critical characteristics of layouts—*legality*, *coordinate proximity*, and *type disruption*—into the diffusion process. This design allows for plug-and-play conditional generation without retraining, leading to impressive performance on RICO and PubLayNet datasets.
+**[ICCV23] LayoutDiffusion: Improving Graphic Layout Generation by Discrete Diffusion Probabilistic Models** [[arXiv](https://arxiv.org/abs/2303.11589)], by *Junyi Zhang*, *Jiaqi Guo*, *Shizhao Sun*, *Jian-Guang Lou*, *Dongmei Zhang*, is a generative model that automates graphic layout generation using a discrete denoising diffusion process. It incorporates the critical characteristics of layouts—*legality*, *coordinate proximity*, and *type disruption*—into the diffusion process. This design allows for plug-and-play conditional generation without retraining, leading to impressive performance on RICO and PubLayNet datasets.
 
 
 ![LayoutDiffusion](./assets/overview.png)
