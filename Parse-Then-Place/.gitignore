@@ -1,0 +1,31 @@
+# Python bytecode
+*.pyc
+
+# Logs
+*.log
+
+# Virtualenv
+venv/
+
+# Build
+build/
+dist/
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+download.sh
+manage_amlt_storage.sh
+temp/
+tmp/
+Parse-Then-Place/
+visualization_results/
+output/
+data/
+ckpt/
+*.ipynb
+src/test/
+src/wandb/
+text2layout.egg-info
