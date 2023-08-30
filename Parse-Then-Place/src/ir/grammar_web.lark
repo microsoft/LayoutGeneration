@@ -1,0 +1,44 @@
+start: region
+
+region: "[region:" REGION_TYPE attr* element* group* element* "]"
+
+REGION_TYPE: "Header" | "Footer" | "SingleInfo" | "MultiInfo"
+
+element: "[el:" ELEMENT_TYPE attr*  "]"
+
+ELEMENT_TYPE: "text" | "image" | "background_image" | "button"
+            | "link" | "icon" | "pagination" | "input"
+            | "title" | "description" | "logo"
+
+attr: "[attr:" ATTR_TYPE ATTR_VALUE "]"
+
+ATTR_TYPE: "size" | "theme" | "position" | "value" | "num" | "bbox" | "eid" | "repeat" | "has_background" | /style_[a-z_]+/
+
+ATTR_VALUE: "'"/.*?/"'"
+
+group: "[gp:" GROUP_TYPE group_attr* item* "]"
+
+GROUP_TYPE: "NavGroup" | "InfoGroup" | "FlatNavGroup"
+
+group_attr: "[gattr:" GROUP_ATTR_TYPE ATTR_VALUE "]"
+
+GROUP_ATTR_TYPE: "repeat" | "total_link" | "names" | "row" | "col" | "display"
+
+item: "[item" element+ "]"
+
+
+// Lark
+ESCAPED_IDENTIFIER: /\\([^\s]+)/
+COMMENT: "//" /[^\n]*/ NEWLINE
+NEWLINE: "\n"
+MULTILINE_COMMENT: /\/\*(\*(?!\/)|[^*])*\*\//
+
+%import common.CNAME
+%import common.ESCAPED_STRING
+%import common.SIGNED_NUMBER
+%import common.WS
+
+%ignore WS
+%ignore COMMENT
+%ignore MULTILINE_COMMENT
+%ignore NEWLINE
