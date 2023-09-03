@@ -203,12 +203,12 @@ class Generator():
 
                     for j in range(len(gold_labels)):
                         if len(self.results) < self.args.num_save:
-                            img_bboxes = torch.stack([gold_bboxes[j]])
-                            img_labels = torch.stack([gold_labels[j]])
-                            img_masks = gold_mask[j].unsqueeze(0).repeat(1, 1)
-                            visualization.save_image(img_bboxes, img_labels, img_masks, draw_colors,
-                                                     self.image_out_dir / f'{len(self.results)}_ori.png',
-                                                     canvas_size=(360, 240))
+                            # img_bboxes = torch.stack([gold_bboxes[j]])
+                            # img_labels = torch.stack([gold_labels[j]])
+                            # img_masks = gold_mask[j].unsqueeze(0).repeat(1, 1)
+                            # visualization.save_image(img_bboxes, img_labels, img_masks, draw_colors,
+                            #                          self.image_out_dir / f'{len(self.results)}_ori.png',
+                            #                          canvas_size=(360, 240))
 
                             img_bboxes = torch.stack([pred_bboxes[j]])
                             img_labels = torch.stack([pred_labels[j]])
