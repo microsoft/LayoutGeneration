@@ -58,7 +58,7 @@ Then, run
 
     cd src
     pip install -e .
-    export export CUDA_VISIBLE_DEVICES=0
+    export CUDA_VISIBLE_DEVICES=0
 
 Finally, use the following commands to conduct inference tasks for different layout generation tasks on the two datasets.
 
