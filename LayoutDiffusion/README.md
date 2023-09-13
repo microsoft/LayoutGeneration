@@ -151,10 +151,10 @@ Note: The path needs to be modified as desired.
 If you find our work useful, please cite:
 
 ```BiBTeX
-@article{zhang2023layoutdiffusion,
+@InProceedings{zhang2023layoutdiffusion,
   title={{LayoutDiffusion: Improving Graphic Layout Generation by Discrete Diffusion Probabilistic Models}},
   author={Zhang, Junyi and Guo, Jiaqi and Sun, Shizhao and Lou, Jian-Guang and Zhang, Dongmei},
-  booktitle={arXiv preprint arXiv:2303.11589},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}},
   year={2023}
 }
 ```

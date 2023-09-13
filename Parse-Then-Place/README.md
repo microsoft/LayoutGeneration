@@ -154,10 +154,10 @@ Set `--is_draw_ground_true` to display real layouts rather than predicted layout
 If you find this code useful for your research, please cite our paper:
 
 ```
-@article{lin2023parse,
+@InProceedings{lin2023parse,
   title={A Parse-Then-Place Approach for Generating Graphic Layouts from Textual Descriptions},
   author={Lin, Jiawei and Guo, Jiaqi and Sun, Shizhao and Xu, Weijiang and Liu, Ting and Lou, Jian-Guang and Zhang, Dongmei},
-  journal={arXiv preprint arXiv:2308.12700},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
   year={2023}
 }
 ```

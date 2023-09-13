@@ -5,28 +5,28 @@ This is a collection of repositories for graphic layout generation. Graphic layo
 
 We mainly focus on three critical topics in graphic layout generation.
 
-- Capture characteristics of graphic layouts: [Coarse-to-Fine](https://ojs.aaai.org/index.php/AAAI/article/view/19994) and [LayoutDiffusion](https://github.com/microsoft/LayoutGeneration/tree/main/LayoutDiffusion).
-- Model diverse user requirements: [Parse-then-Place]().
+- Capture characteristics of graphic layouts: [Coarse-to-Fine](https://github.com/microsoft/LayoutGeneration/tree/main/Coarse-to-Fine) and [LayoutDiffusion](https://github.com/microsoft/LayoutGeneration/tree/main/LayoutDiffusion).
+- Model user requirements: [Parse-then-Place](https://github.com/microsoft/LayoutGeneration/tree/main/Parse-Then-Place).
 - Unify different tasks: [LayoutFormer++](https://github.com/microsoft/LayoutGeneration/tree/main/LayoutFormer%2B%2B) and [LayoutPrompter]().
 
 ## Reference
 
+### Publications
+- LayoutDiffusion: Improving Graphic Layout Generation by Discrete Diffusion Probabilistic Models. _Junyi Zhang, Jiaqi Guo, Shizhao Sun, Jian-Guang Lou, and Dongmei Zhang_. ICCV 2023.
+
+- A Parse-Then-Place Approach for Generating Graphic Layouts from Textual Descriptions. _Jiawei Lin, Jiaqi Guo, Shizhao Sun, Weijiang Xu, Ting Liu, Jian-Guang Lou, and Dongmei Zhang_. ICCV 2023.
+
+- LayoutFormer++: Conditional Graphic Layout Generation via Constraint Serialization and Decoding Space Restriction. _Zhaoyun Jiang, Jiaqi Guo, Shizhao Sun, Huayu Deng, Zhongkai Wu, Vuksan Mijivic, Zijiang James Yang, Jian-Guang, Lou, and Dongmei Zhang_. CVPR 2023.
+
+- Coarse-to-Fine Generative Modeling for Graphic Layouts. _Zhaoyun Jiang, Shizhao Sun, Jihua Zhu, Jian-Guang Lou, and Dongmei Zhang_. AAAI 2022.
+
+- Aesthetics++: Refining Graphic Designs by Exploring Design Principles and Human Preference. _Wenyuan Kong, Zhaoyun Jiang, Shizhao Sun, Zhuoning Guo, Weiwei Cui, Ting Liu, Jian-Guang Lou, and Dongmei Zhang_. TVCG 2022.
+
+- Retrieve-Then-Adapt: Example-based Automatic Generation for Proportion-related Infographics. _Chunyao Qian, Shizhao Sun, Weiwei Cui, Jian-Guang Lou, Haidong Zhang, and Dongmei Zhang_. VIS 2020.
+
 ### Talks
 
 - Unleashing the Potential of AI for Graphic Layout Generation. [CVPR AICC Workshop 2023](https://ai4cc.net/).
-
-### Publications
-- LayoutDiffusion: Improving Graphic Layout Generation by Discrete Diffusion Probabilistic Models. Junyi Zhang, Jiaqi Guo, Shizhao Sun, Jian-Guang Lou, Dongmei Zhang. ICCV 2023.
-
-- A Parse-Then-Place Approach for Generating Graphic Layouts from Textual Descriptions. Jiawei Lin, Jiaqi Guo, Shizhao Sun, Weijiang Xu, Ting Liu, Jian-Guang Lou, Dongmei Zhang. ICCV 2023.
-
-- LayoutFormer++: Conditional Graphic Layout Generation via Constraint Serialization and Decoding Space Restriction. Zhaoyun Jiang, Jiaqi Guo, Shizhao Sun, Huayu Deng, Zhongkai Wu, Vuksan Mijivic, Zijiang James Yang, Jian-Guang, Lou, Dongmei Zhang. CVPR 2023.
-
-- Coarse-to-Fine Generative Modeling for Graphic Layouts. Zhaoyun Jiang, Shizhao Sun, Jihua Zhu, Jian-Guang Lou, Dongmei Zhang. AAAI 2022.
-
-- Aesthetics++: Refining Graphic Designs by Exploring Design Principles and Human Preference. Wenyuan Kong, Zhaoyun Jiang, Shizhao Sun, Zhuoning Guo, Weiwei Cui, Ting Liu, Jian-Guang Lou, Dongmei Zhang. TVCG 2022.
-
-- Retrieve-Then-Adapt: Example-based Automatic Generation for Proportion-related Infographics. Chunyao Qian, Shizhao Sun, Weiwei Cui, Jian-Guang Lou, Haidong Zhang, Dongmei Zhang. VIS 2020.
 
 ## Contributing
 
