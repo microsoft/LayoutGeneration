@@ -154,7 +154,7 @@ If you find our work useful, please cite:
 @InProceedings{zhang2023layoutdiffusion,
   title={{LayoutDiffusion: Improving Graphic Layout Generation by Discrete Diffusion Probabilistic Models}},
   author={Zhang, Junyi and Guo, Jiaqi and Sun, Shizhao and Lou, Jian-Guang and Zhang, Dongmei},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)}},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
   year={2023}
 }
 ```
