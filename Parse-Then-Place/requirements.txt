@@ -7,6 +7,6 @@ pytorch_fid
 PyYAML
 scipy
 tqdm
-transformers==4.19.4
+transformers==4.30.0
 SentencePiece
 wandb==0.12.10
