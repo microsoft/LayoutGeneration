@@ -1,6 +1,6 @@
 seaborn==0.11.2
 pycocotools==2.0.3
-transformers==4.16.2
+transformers==4.30.0
 deepspeed==0.5.10
 pytorch-fid==0.2.1
 wandb
