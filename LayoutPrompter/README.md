@@ -56,7 +56,7 @@ They can be downloaded from [HuggingFace](https://huggingface.co/datasets/KyleLi
 
 ```
 git lfs install
-https://huggingface.co/datasets/KyleLin/LayoutPrompter
+git clone https://huggingface.co/datasets/KyleLin/LayoutPrompter
 ```
 
 Move the contents to the `dataset` directory as follows:
