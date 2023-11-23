@@ -1,0 +1,7 @@
+git+https://github.com/openai/CLIP.git
+openai
+opencv_contrib_python
+opencv_python
+scipy
+seaborn
+setuptools

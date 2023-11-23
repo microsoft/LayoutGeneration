@@ -1,0 +1,25 @@
+# Python bytecode
+*.pyc
+
+# Logs
+*.log
+
+# Virtualenv
+venv/
+
+# Build
+build/
+dist/
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+pipeline.md
+test.py
+.mypy_cache/
+layoutprompter.egg-info
+dataset/*
+LayoutPrompter
+!dataset/README.md
