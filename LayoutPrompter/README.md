@@ -56,7 +56,7 @@ They can be downloaded from [HuggingFace](https://huggingface.co/datasets/KyleLi
 
 ```
 git lfs install
-https://huggingface.co/datasets/KyleLin/LayoutPrompter
+git clone https://huggingface.co/datasets/KyleLin/LayoutPrompter
 ```
 
 Move the contents to the `dataset` directory as follows:
@@ -71,7 +71,7 @@ dataset/
 
 ## Notebooks
 
-We include three jyputer notebooks [here](./notebooks), each corresponding to a type of layout generation task.
+We include three jupyter notebooks [here](./notebooks), each corresponding to a type of layout generation task.
 They all consist of the following components:
 - Configuration
 - Process raw data
