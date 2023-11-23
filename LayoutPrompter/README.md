@@ -71,7 +71,7 @@ dataset/
 
 ## Notebooks
 
-We include three jyputer notebooks [here](./notebooks), each corresponding to a type of layout generation task.
+We include three jupyter notebooks [here](./notebooks), each corresponding to a type of layout generation task.
 They all consist of the following components:
 - Configuration
 - Process raw data
