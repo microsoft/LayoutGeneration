@@ -7,11 +7,12 @@ We mainly focus on three critical topics in graphic layout generation.
 
 - Capture characteristics of graphic layouts: [Coarse-to-Fine](https://github.com/microsoft/LayoutGeneration/tree/main/Coarse-to-Fine) and [LayoutDiffusion](https://github.com/microsoft/LayoutGeneration/tree/main/LayoutDiffusion).
 - Model user requirements: [Parse-then-Place](https://github.com/microsoft/LayoutGeneration/tree/main/Parse-Then-Place).
-- Unify different tasks: [LayoutFormer++](https://github.com/microsoft/LayoutGeneration/tree/main/LayoutFormer%2B%2B) and [LayoutPrompter]().
+- Unify different tasks: [LayoutFormer++](https://github.com/microsoft/LayoutGeneration/tree/main/LayoutFormer%2B%2B) and [LayoutPrompter](https://github.com/microsoft/LayoutGeneration/tree/main/LayoutPrompter).
 
 ## Reference
 
 ### Publications
+- LayoutPrompter: Awaken the Design Ability of Large Language Models. _Jiawei Lin, Jiaqi Guo, Shizhao Sun, Zijiang Yang, Jian-Guang Lou and Dongmei Zhang_. NeurIPS 2023. 
 - LayoutDiffusion: Improving Graphic Layout Generation by Discrete Diffusion Probabilistic Models. _Junyi Zhang, Jiaqi Guo, Shizhao Sun, Jian-Guang Lou, and Dongmei Zhang_. ICCV 2023.
 
 - A Parse-Then-Place Approach for Generating Graphic Layouts from Textual Descriptions. _Jiawei Lin, Jiaqi Guo, Shizhao Sun, Weijiang Xu, Ting Liu, Jian-Guang Lou, and Dongmei Zhang_. ICCV 2023.
